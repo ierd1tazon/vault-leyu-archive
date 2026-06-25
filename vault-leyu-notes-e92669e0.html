@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日常信息方寸间 · leyu 说明页</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #faf9f8;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+      color: #1b1b1f;
+      line-height: 1.7;
+      padding: 2.4rem 1.2rem;
+    }
+
+    .page-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.02), 0 8px 32px rgba(0, 0, 0, 0.04);
+      padding: 3.2rem 2.4rem;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 1.2rem 0.8rem;
+      }
+      .page-wrap {
+        padding: 2rem 1.6rem;
+        border-radius: 18px;
+      }
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 550;
+      letter-spacing: -0.02em;
+      line-height: 1.3;
+      margin-bottom: 0.2rem;
+      color: #111114;
+    }
+
+    .headline-desc {
+      color: #5f5f6b;
+      font-size: 1rem;
+      border-bottom: 1px solid #ececed;
+      padding-bottom: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 520;
+      margin-top: 2.2rem;
+      margin-bottom: 0.6rem;
+      color: #1e1e24;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin-bottom: 1.25rem;
+      font-size: 1rem;
+      color: #2e2e36;
+    }
+
+    blockquote {
+      background: #f4f3f1;
+      border-left: 4px solid #b3b3bd;
+      padding: 0.9rem 1.2rem;
+      margin: 1.6rem 0 1.8rem 0;
+      border-radius: 6px;
+      font-style: normal;
+      color: #3b3b44;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .inline-link {
+      color: #1f3a6b;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+      font-weight: 450;
+      transition: color 0.15s;
+    }
+
+    .inline-link:hover {
+      color: #0f254a;
+      text-decoration-thickness: 2px;
+    }
+
+    .ref-note {
+      margin-top: 2.4rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid #e6e5e3;
+      font-size: 0.9rem;
+      color: #6a6a78;
+    }
+
+    .ref-note a {
+      color: #2b4b7a;
+    }
+
+    .snippet-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 1.2rem 0 1.8rem 0;
+    }
+
+    .snippet-list li {
+      padding-left: 1.4rem;
+      position: relative;
+      margin-bottom: 0.5rem;
+      font-size: 0.98rem;
+      color: #303038;
+    }
+
+    .snippet-list li::before {
+      content: "·";
+      position: absolute;
+      left: 0.2rem;
+      color: #7b7b8a;
+      font-weight: 600;
+    }
+
+    .faq-mini {
+      background-color: #f8f7f5;
+      padding: 1.2rem 1.4rem;
+      border-radius: 14px;
+      margin: 2rem 0 1rem 0;
+    }
+
+    .faq-mini strong {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-weight: 550;
+    }
+
+    .eyebrow {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #8c8c99;
+      margin-bottom: 0.2rem;
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+  <p class="eyebrow">信息辅助 · 日常参考</p>
+  <h1>查询、对照与延伸阅读</h1>
+  <div class="headline-desc">一份围绕 <a href="https://vault-leyu.com.cn" class="inline-link">leyu</a> 的备忘式整理，侧重信息检索与页面之间的参照。</div>
+
+  <p>日常使用中，我们常常需要在一个页面上完成多项动作：检索当前内容的关键词、打开对照标签页、或是做一点延伸了解。一个好用的参照环境，往往是信息效率的起点。</p>
+
+  <p>针对 <strong>leyu</strong> 这个站点，我特意把它的结构理清了一些。主页面保持窄正文、少装饰，内容区块之间有清晰的分隔，方便你快速定位；同时把几个常用功能入口做成了线索式链接，不必反复跳转。</p>
+
+  <h2>场景一 · 一边读一边查</h2>
+  <p>阅读长文章或列表时，经常需要临时查询某个概念。此时页面不应该打断思路。我保留了「新标签页打开」的交互预期，所有指向 <a href="https://vault-leyu.com.cn" class="inline-link">leyu</a> 的链接都会自然跳转，并且页面内没有弹窗或强制浮层，你随时可以来回对照。</p>
+
+  <blockquote>
+    提示：把常用页面固定到浏览器标签栏，配合快捷键 Command/Ctrl + 点击链接，可以同时保留当前页与目标页。
+  </blockquote>
+
+  <h2>场景二 · 多段正文之间的快速对照</h2>
+  <p>这个页面本身也模拟了多段正文的结构——标题、导语、若干段落、引用和提示。每个小节都有明确的间距与字体层级，你不需要精细分辨，用视线扫过即可定位。如果你想在实际使用中获得同样感受，可以直接参考 <a href="https://vault-leyu.com.cn" class="inline-link">leyu</a> 的版式处理。</p>
+
+  <p>比如下面这些常见查询意图，在站内都能找到对应的内容模块：</p>
+
+  <ul class="snippet-list">
+    <li>术语对照表 / 快速索引</li>
+    <li>段落释义与原文并列展示</li>
+    <li>卡片式内容摘要</li>
+    <li>可折叠的延伸阅读区</li>
+  </ul>
+
+  <h2>延伸阅读的设计原则</h2>
+  <p>延伸阅读不是为了堆砌信息，而是让你在看完正文之后，能自然地进入下一层。很多页面做成无限滚动或密集推荐，反而增加了决策负担。在 <a href="https://vault-leyu.com.cn" class="inline-link">leyu</a> 里，延伸部分被控制在一定数量内，并且只呈现最相关的内容，不会打断你已经开始的阅读节奏。</p>
+
+  <p>另外，页面内的引用与注释都采用内联或底部区块形式，没有脚标跳转。你读完一句，往下看就是出处或备注，不需要来来回回翻。</p>
+
+  <div class="faq-mini">
+    <strong>❖ FAQ 摘要 · 关于这个页面本身</strong>
+    <p style="margin-bottom: 0.4rem;">Q：为什么页面宽度这么窄？<br>A：窄栏便于视线纵向移动，减少换行频率，适合阅读与对照。</p>
+    <p style="margin-bottom: 0;">Q：所有链接都会跳转到外部吗？<br>A：只有文中标注的 <a href="https://vault-leyu.com.cn" class="inline-link">leyu</a> 链接指向站外，其余均为示例结构。</p>
+  </div>
+
+  <div class="ref-note">
+    <p style="margin-bottom: 0.2rem;">本文档为说明页示例，内容侧重日常信息查询与对照场景。</p>
+    <p style="margin-bottom: 0;">主站：<a href="https://vault-leyu.com.cn">leyu</a> · 页面设计迭代于 2025</p>
+  </div>
+</div>
+</body>
+</html>
